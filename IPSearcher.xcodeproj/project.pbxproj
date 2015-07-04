@@ -7,12 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA7FA37C1B47EE3900AB397D /* PatentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FA37B1B47EE3900AB397D /* PatentController.swift */; };
+		BA7FA37E1B47F7F900AB397D /* Patent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7FA37D1B47F7F900AB397D /* Patent.storyboard */; };
+		BA7FA3801B480FBF00AB397D /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FA37F1B480FBF00AB397D /* WebController.swift */; };
 		BA9A52101B47ADC60052E4A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A520F1B47ADC60052E4A8 /* AppDelegate.swift */; };
 		BA9A52121B47ADC60052E4A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A52111B47ADC60052E4A8 /* ViewController.swift */; };
 		BA9A52151B47ADC60052E4A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9A52131B47ADC60052E4A8 /* Main.storyboard */; };
 		BA9A52171B47ADC60052E4A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9A52161B47ADC60052E4A8 /* Images.xcassets */; };
 		BA9A521A1B47ADC60052E4A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9A52181B47ADC60052E4A8 /* LaunchScreen.xib */; };
 		BA9A52261B47ADC60052E4A8 /* IPSearcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A52251B47ADC60052E4A8 /* IPSearcherTests.swift */; };
+		BA9A52381B47ADEF0052E4A8 /* GradientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A522F1B47ADEF0052E4A8 /* GradientExtension.swift */; };
+		BA9A52391B47ADEF0052E4A8 /* HospitalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A52301B47ADEF0052E4A8 /* HospitalController.swift */; };
+		BA9A523A1B47ADEF0052E4A8 /* HospitalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A52311B47ADEF0052E4A8 /* HospitalModel.swift */; };
+		BA9A523C1B47ADEF0052E4A8 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A52331B47ADEF0052E4A8 /* NavController.swift */; };
+		BA9A523D1B47ADEF0052E4A8 /* Photo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9A52341B47ADEF0052E4A8 /* Photo.storyboard */; };
+		BA9A523E1B47ADEF0052E4A8 /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A52351B47ADEF0052E4A8 /* PhotoController.swift */; };
+		BA9A523F1B47ADEF0052E4A8 /* ServicesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A52361B47ADEF0052E4A8 /* ServicesController.swift */; };
+		BA9A52401B47ADEF0052E4A8 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A52371B47ADEF0052E4A8 /* UIColorExtension.swift */; };
+		BA9A52421B47AE2D0052E4A8 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9A52411B47AE2D0052E4A8 /* SwiftyJSON.framework */; };
+		BA9A52461B47AE4E0052E4A8 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9A52451B47AE4E0052E4A8 /* SVProgressHUD.framework */; };
+		BA9A52481B47AE5F0052E4A8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9A52471B47AE5F0052E4A8 /* Alamofire.framework */; };
+		BA9A52491B47AECF0052E4A8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9A52471B47AE5F0052E4A8 /* Alamofire.framework */; };
+		BA9A524A1B47AECF0052E4A8 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA9A52471B47AE5F0052E4A8 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA9A524C1B47AED10052E4A8 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9A52451B47AE4E0052E4A8 /* SVProgressHUD.framework */; };
+		BA9A524D1B47AED10052E4A8 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA9A52451B47AE4E0052E4A8 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA9A524E1B47AED40052E4A8 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9A52411B47AE2D0052E4A8 /* SwiftyJSON.framework */; };
+		BA9A524F1B47AED40052E4A8 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA9A52411B47AE2D0052E4A8 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +45,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BA9A524B1B47AED00052E4A8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BA9A524D1B47AED10052E4A8 /* SVProgressHUD.framework in Embed Frameworks */,
+				BA9A524A1B47AECF0052E4A8 /* Alamofire.framework in Embed Frameworks */,
+				BA9A524F1B47AED40052E4A8 /* SwiftyJSON.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		BA7FA37B1B47EE3900AB397D /* PatentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatentController.swift; sourceTree = "<group>"; };
+		BA7FA37D1B47F7F900AB397D /* Patent.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Patent.storyboard; sourceTree = "<group>"; };
+		BA7FA37F1B480FBF00AB397D /* WebController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
 		BA9A520A1B47ADC60052E4A8 /* IPSearcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPSearcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9A520E1B47ADC60052E4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9A520F1B47ADC60052E4A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +75,17 @@
 		BA9A521F1B47ADC60052E4A8 /* IPSearcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPSearcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9A52241B47ADC60052E4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9A52251B47ADC60052E4A8 /* IPSearcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPSearcherTests.swift; sourceTree = "<group>"; };
+		BA9A522F1B47ADEF0052E4A8 /* GradientExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientExtension.swift; sourceTree = "<group>"; };
+		BA9A52301B47ADEF0052E4A8 /* HospitalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalController.swift; sourceTree = "<group>"; };
+		BA9A52311B47ADEF0052E4A8 /* HospitalModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalModel.swift; sourceTree = "<group>"; };
+		BA9A52331B47ADEF0052E4A8 /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		BA9A52341B47ADEF0052E4A8 /* Photo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Photo.storyboard; sourceTree = "<group>"; };
+		BA9A52351B47ADEF0052E4A8 /* PhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
+		BA9A52361B47ADEF0052E4A8 /* ServicesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesController.swift; sourceTree = "<group>"; };
+		BA9A52371B47ADEF0052E4A8 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		BA9A52411B47AE2D0052E4A8 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		BA9A52451B47AE4E0052E4A8 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
+		BA9A52471B47AE5F0052E4A8 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +93,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9A52481B47AE5F0052E4A8 /* Alamofire.framework in Frameworks */,
+				BA9A524C1B47AED10052E4A8 /* SVProgressHUD.framework in Frameworks */,
+				BA9A524E1B47AED40052E4A8 /* SwiftyJSON.framework in Frameworks */,
+				BA9A52461B47AE4E0052E4A8 /* SVProgressHUD.framework in Frameworks */,
+				BA9A52421B47AE2D0052E4A8 /* SwiftyJSON.framework in Frameworks */,
+				BA9A52491B47AECF0052E4A8 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +115,9 @@
 		BA9A52011B47ADC60052E4A8 = {
 			isa = PBXGroup;
 			children = (
+				BA9A52471B47AE5F0052E4A8 /* Alamofire.framework */,
+				BA9A52451B47AE4E0052E4A8 /* SVProgressHUD.framework */,
+				BA9A52411B47AE2D0052E4A8 /* SwiftyJSON.framework */,
 				BA9A520C1B47ADC60052E4A8 /* IPSearcher */,
 				BA9A52221B47ADC60052E4A8 /* IPSearcherTests */,
 				BA9A520B1B47ADC60052E4A8 /* Products */,
@@ -77,12 +136,23 @@
 		BA9A520C1B47ADC60052E4A8 /* IPSearcher */ = {
 			isa = PBXGroup;
 			children = (
+				BA9A522F1B47ADEF0052E4A8 /* GradientExtension.swift */,
+				BA9A52301B47ADEF0052E4A8 /* HospitalController.swift */,
+				BA9A52311B47ADEF0052E4A8 /* HospitalModel.swift */,
+				BA9A52331B47ADEF0052E4A8 /* NavController.swift */,
+				BA9A52341B47ADEF0052E4A8 /* Photo.storyboard */,
+				BA9A52351B47ADEF0052E4A8 /* PhotoController.swift */,
+				BA9A52361B47ADEF0052E4A8 /* ServicesController.swift */,
+				BA9A52371B47ADEF0052E4A8 /* UIColorExtension.swift */,
 				BA9A520F1B47ADC60052E4A8 /* AppDelegate.swift */,
 				BA9A52111B47ADC60052E4A8 /* ViewController.swift */,
 				BA9A52131B47ADC60052E4A8 /* Main.storyboard */,
 				BA9A52161B47ADC60052E4A8 /* Images.xcassets */,
 				BA9A52181B47ADC60052E4A8 /* LaunchScreen.xib */,
 				BA9A520D1B47ADC60052E4A8 /* Supporting Files */,
+				BA7FA37B1B47EE3900AB397D /* PatentController.swift */,
+				BA7FA37D1B47F7F900AB397D /* Patent.storyboard */,
+				BA7FA37F1B480FBF00AB397D /* WebController.swift */,
 			);
 			path = IPSearcher;
 			sourceTree = "<group>";
@@ -122,6 +192,7 @@
 				BA9A52061B47ADC60052E4A8 /* Sources */,
 				BA9A52071B47ADC60052E4A8 /* Frameworks */,
 				BA9A52081B47ADC60052E4A8 /* Resources */,
+				BA9A524B1B47AED00052E4A8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,7 +263,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA7FA37E1B47F7F900AB397D /* Patent.storyboard in Resources */,
 				BA9A52151B47ADC60052E4A8 /* Main.storyboard in Resources */,
+				BA9A523D1B47ADEF0052E4A8 /* Photo.storyboard in Resources */,
 				BA9A521A1B47ADC60052E4A8 /* LaunchScreen.xib in Resources */,
 				BA9A52171B47ADC60052E4A8 /* Images.xcassets in Resources */,
 			);
@@ -213,7 +286,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA9A52121B47ADC60052E4A8 /* ViewController.swift in Sources */,
+				BA9A52381B47ADEF0052E4A8 /* GradientExtension.swift in Sources */,
+				BA9A523A1B47ADEF0052E4A8 /* HospitalModel.swift in Sources */,
+				BA9A523F1B47ADEF0052E4A8 /* ServicesController.swift in Sources */,
+				BA9A523E1B47ADEF0052E4A8 /* PhotoController.swift in Sources */,
+				BA9A52401B47ADEF0052E4A8 /* UIColorExtension.swift in Sources */,
+				BA7FA3801B480FBF00AB397D /* WebController.swift in Sources */,
 				BA9A52101B47ADC60052E4A8 /* AppDelegate.swift in Sources */,
+				BA9A52391B47ADEF0052E4A8 /* HospitalController.swift in Sources */,
+				BA9A523C1B47ADEF0052E4A8 /* NavController.swift in Sources */,
+				BA7FA37C1B47EE3900AB397D /* PatentController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +424,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = IPSearcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +438,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = IPSearcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +501,7 @@
 				BA9A522B1B47ADC60052E4A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA9A522C1B47ADC60052E4A8 /* Build configuration list for PBXNativeTarget "IPSearcherTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +510,7 @@
 				BA9A522E1B47ADC60052E4A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

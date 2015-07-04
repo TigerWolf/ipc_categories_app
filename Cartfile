@@ -1,0 +1,4 @@
+github "TransitApp/SVProgressHUD"
+#github "edekhayser/FrostedSidebar"
+github "Alamofire/Alamofire"
+github "SwiftyJSON/SwiftyJSON"
