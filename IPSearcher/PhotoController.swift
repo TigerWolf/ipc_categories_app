@@ -22,6 +22,11 @@ class PhotoController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view, typically from a nib.
+        //openCamera()
+        
+    }
+    
+    func openCamera(){
         captureSession.sessionPreset = AVCaptureSessionPresetHigh
         
         let devices = AVCaptureDevice.devices()
@@ -40,7 +45,6 @@ class PhotoController: UIViewController {
                 }
             }
         }
-        
     }
     
     func focusTo(value : Float) {

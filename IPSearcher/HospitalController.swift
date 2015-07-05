@@ -18,7 +18,7 @@ class HospitalController: UITableViewController, UISearchResultsUpdating {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "IP Categories"
+        self.title = "Australian Patent Search Tool"
         self.searchController = ({
             let controller = UISearchController(searchResultsController: nil)
             controller.searchResultsUpdater = self
@@ -31,8 +31,8 @@ class HospitalController: UITableViewController, UISearchResultsUpdating {
         })()
         // This is needed so that search bar doesnt fly away
         self.definesPresentationContext = true
-        var b = UIBarButtonItem(title: "Photo", style: .Plain, target: self, action: "openPhoto:")
-//        self.navigationItem.rightBarButtonItem = b
+        var b = UIBarButtonItem(title: "Advanced Search", style: .Plain, target: self, action: "openPhoto:")
+        self.navigationItem.rightBarButtonItem = b
         getData()
     }
 
@@ -42,7 +42,8 @@ class HospitalController: UITableViewController, UISearchResultsUpdating {
     }
     
     func getData(){
-        var url = "http://localhost:3000/"
+//        var url = "http://localhost:3000/"
+        var url = "http://digitalhub.unleashingsa.com.au/"
         var path = "api/v1/categories/list"
         var location = url + path
         Alamofire.request(.GET, location)

@@ -20,7 +20,7 @@ class ServicesController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         NSLog("\(attributes)")
-        self.title = "Services"
+        self.title = attributes + " Patents"
         SVProgressHUD.show()
         getData()
     }
@@ -35,7 +35,8 @@ class ServicesController: UITableViewController {
     }
     
     func getData(){
-        var url = "http://localhost:3000/"
+//        var url = "http://localhost:3000/"
+        var url = "http://digitalhub.unleashingsa.com.au/"
         var path = "api/v1/categories/children?parent=" + attributes
         var location = url + path
         Alamofire.request(.GET, location)

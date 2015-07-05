@@ -19,12 +19,12 @@ class PatentController: UITableViewController {
     
     func getData() {
         //
-        data.append(Hospital(location_name: "Patent 1", location_id: "a"))
-        data.append(Hospital(location_name: "Patent 2", location_id: "a"))
-        data.append(Hospital(location_name: "Patent 3", location_id: "a"))
-        data.append(Hospital(location_name: "Patent 4", location_id: "a"))
-        data.append(Hospital(location_name: "Patent 5", location_id: "a"))
-        data.append(Hospital(location_name: "Patent 6", location_id: "a"))
+        data.append(Hospital(location_name: "2011288044 - Use of Salvia miltiorrhiza composition in preparing drugs for secondary prevention of coronary heart disease", location_id: "2011288044"))
+        data.append(Hospital(location_name: "2012286557 - Solid and liquid separation process", location_id: "2012286557"))
+        data.append(Hospital(location_name: "2009253727 - Binding particulate materials to manufacture articles", location_id: "2009253727"))
+        data.append(Hospital(location_name: "2010221783 - Rotary blood pump", location_id: "2010221783"))
+        data.append(Hospital(location_name: "2003100345 - Impact cushioning device", location_id: "2003100345"))
+        data.append(Hospital(location_name: "2008315932 - Method for producing stainless steel using direct reduction furnaces for ferrochrome and ferronickel on the primary side of a converter", location_id: "2008315932"))
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -39,7 +39,7 @@ class PatentController: UITableViewController {
     func tap(key: Hospital){
         let storyboard = UIStoryboard(name: "Patent", bundle: nil)
         let vc = storyboard.instantiateViewControllerWithIdentifier("webviewController") as! WebController
-
+        vc.ipc_code = key.location_id
         self.navigationController!.pushViewController(vc, animated:true)
     }
     

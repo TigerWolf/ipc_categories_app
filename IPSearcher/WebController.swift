@@ -17,7 +17,7 @@ class WebController: UIViewController, UIWebViewDelegate {
         //        self.title = "Patent Show"
         //        SVProgressHUD.show()
         //        getData()
-        let url = NSURL(string: "http://pericles.ipaustralia.gov.au/ols/auspat/applicationDetails.do?applicationNo=2008315932")
+        let url = NSURL(string: "http://pericles.ipaustralia.gov.au/ols/auspat/applicationDetails.do?applicationNo=" + self.ipc_code)
         //        let requestURL = NSURL(string:url)
         //        let request = NSURLRequest(URL: requestURL!)
         //        webView.loadHTMLString(url, baseURL: nil)

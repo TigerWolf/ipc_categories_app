@@ -13,7 +13,7 @@ extension CAGradientLayer {
     class func gradientLayerForBounds(bounds: CGRect) -> CAGradientLayer {
         var layer = CAGradientLayer()
         layer.frame = bounds
-        layer.colors = [UIColor(rgba: "#DAD299").CGColor, UIColor(rgba: "#B0DAB9").CGColor]
+        layer.colors = [UIColor(rgba: "#360033").CGColor, UIColor(rgba: "#0b8793").CGColor]
         return layer
     }
 }

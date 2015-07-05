@@ -10,6 +10,7 @@
 		BA7FA37C1B47EE3900AB397D /* PatentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FA37B1B47EE3900AB397D /* PatentController.swift */; };
 		BA7FA37E1B47F7F900AB397D /* Patent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7FA37D1B47F7F900AB397D /* Patent.storyboard */; };
 		BA7FA3801B480FBF00AB397D /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FA37F1B480FBF00AB397D /* WebController.swift */; };
+		BA7FA3821B48E20100AB397D /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FA3811B48E20100AB397D /* PhotoController.swift */; };
 		BA9A52101B47ADC60052E4A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A520F1B47ADC60052E4A8 /* AppDelegate.swift */; };
 		BA9A52121B47ADC60052E4A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A52111B47ADC60052E4A8 /* ViewController.swift */; };
 		BA9A52151B47ADC60052E4A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9A52131B47ADC60052E4A8 /* Main.storyboard */; };
@@ -21,7 +22,6 @@
 		BA9A523A1B47ADEF0052E4A8 /* HospitalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A52311B47ADEF0052E4A8 /* HospitalModel.swift */; };
 		BA9A523C1B47ADEF0052E4A8 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A52331B47ADEF0052E4A8 /* NavController.swift */; };
 		BA9A523D1B47ADEF0052E4A8 /* Photo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9A52341B47ADEF0052E4A8 /* Photo.storyboard */; };
-		BA9A523E1B47ADEF0052E4A8 /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A52351B47ADEF0052E4A8 /* PhotoController.swift */; };
 		BA9A523F1B47ADEF0052E4A8 /* ServicesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A52361B47ADEF0052E4A8 /* ServicesController.swift */; };
 		BA9A52401B47ADEF0052E4A8 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A52371B47ADEF0052E4A8 /* UIColorExtension.swift */; };
 		BA9A52421B47AE2D0052E4A8 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9A52411B47AE2D0052E4A8 /* SwiftyJSON.framework */; };
@@ -65,6 +65,7 @@
 		BA7FA37B1B47EE3900AB397D /* PatentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatentController.swift; sourceTree = "<group>"; };
 		BA7FA37D1B47F7F900AB397D /* Patent.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Patent.storyboard; sourceTree = "<group>"; };
 		BA7FA37F1B480FBF00AB397D /* WebController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
+		BA7FA3811B48E20100AB397D /* PhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
 		BA9A520A1B47ADC60052E4A8 /* IPSearcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPSearcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9A520E1B47ADC60052E4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9A520F1B47ADC60052E4A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,7 +81,6 @@
 		BA9A52311B47ADEF0052E4A8 /* HospitalModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalModel.swift; sourceTree = "<group>"; };
 		BA9A52331B47ADEF0052E4A8 /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
 		BA9A52341B47ADEF0052E4A8 /* Photo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Photo.storyboard; sourceTree = "<group>"; };
-		BA9A52351B47ADEF0052E4A8 /* PhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
 		BA9A52361B47ADEF0052E4A8 /* ServicesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesController.swift; sourceTree = "<group>"; };
 		BA9A52371B47ADEF0052E4A8 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		BA9A52411B47AE2D0052E4A8 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
@@ -138,10 +138,10 @@
 			children = (
 				BA9A522F1B47ADEF0052E4A8 /* GradientExtension.swift */,
 				BA9A52301B47ADEF0052E4A8 /* HospitalController.swift */,
+				BA7FA3811B48E20100AB397D /* PhotoController.swift */,
 				BA9A52311B47ADEF0052E4A8 /* HospitalModel.swift */,
 				BA9A52331B47ADEF0052E4A8 /* NavController.swift */,
 				BA9A52341B47ADEF0052E4A8 /* Photo.storyboard */,
-				BA9A52351B47ADEF0052E4A8 /* PhotoController.swift */,
 				BA9A52361B47ADEF0052E4A8 /* ServicesController.swift */,
 				BA9A52371B47ADEF0052E4A8 /* UIColorExtension.swift */,
 				BA9A520F1B47ADC60052E4A8 /* AppDelegate.swift */,
@@ -232,6 +232,7 @@
 				TargetAttributes = {
 					BA9A52091B47ADC60052E4A8 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = AZ3795GA6H;
 					};
 					BA9A521E1B47ADC60052E4A8 = {
 						CreatedOnToolsVersion = 6.4;
@@ -289,8 +290,8 @@
 				BA9A52381B47ADEF0052E4A8 /* GradientExtension.swift in Sources */,
 				BA9A523A1B47ADEF0052E4A8 /* HospitalModel.swift in Sources */,
 				BA9A523F1B47ADEF0052E4A8 /* ServicesController.swift in Sources */,
-				BA9A523E1B47ADEF0052E4A8 /* PhotoController.swift in Sources */,
 				BA9A52401B47ADEF0052E4A8 /* UIColorExtension.swift in Sources */,
+				BA7FA3821B48E20100AB397D /* PhotoController.swift in Sources */,
 				BA7FA3801B480FBF00AB397D /* WebController.swift in Sources */,
 				BA9A52101B47ADC60052E4A8 /* AppDelegate.swift in Sources */,
 				BA9A52391B47ADEF0052E4A8 /* HospitalController.swift in Sources */,
@@ -424,13 +425,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = IPSearcher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -438,13 +443,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = IPSearcher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
